@@ -1,0 +1,54 @@
+dn: dc=eric,dc=cat
+dc: eric
+description: Base de dades eric.cat
+objectClass: dcObject
+objectClass: organization
+o: eric.cat
+
+dn: ou=socis,dc=eric,dc=cat
+ou: socis
+description: Socis
+objectclass: organizationalunit
+
+dn: ou=simpatitzans,dc=eric,dc=cat
+ou: simpatitzans
+description: Simpatitzants
+objectclass: organizationalunit
+
+
+dn: uid=10,ou=socis,dc=eric,dc=cat
+objectclass: indepeOrgPerson
+objectclass: inetOrgPerson
+cn: Pau Pou
+sn: Pou
+description: Watch out for this guy
+ou: socis
+idcat: 10
+twitter: abc
+
+
+dn: uid=11 Pou,ou=socis,dc=eric,dc=cat
+objectclass: indepeOrgPerson
+objectclass: inetOrgPerson
+cn: Pere Pou
+sn: Pou
+description: Watch out for this guy
+ou: socis
+idcat: 11
+twitter: abc
+
+dn: uid=12,ou=socis,dc=eric,dc=cat
+objectclass: indepeOrgPerson
+objectclass: inetOrgPerson
+cn: Marta Pou
+sn: Pou
+description: Watch out for this guy
+ou: socis
+idcat: 12
+twitter: abc
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+dn: uid=12,ou=socis,dc=eric,dc=cat
+changetype: add
+objectlass: llarenaAccount
+
+dn: uid=12,ou=socis,dc=eric,dc=cat
+changetype: modify
+add: delictes
+delictes: moltissims

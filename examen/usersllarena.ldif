@@ -1,0 +1,30 @@
+dn: uid=10,ou=socis,dc=eric,dc=cat
+objectclass: llarenaAccount
+objectclass: indepeOrgPerson
+objectclass: inetOrgPerson
+cn: Pau Pou
+sn: Pou
+description: Watch out for this guy
+ou: socis
+idcat: 10
+twitter: abc
+delictes: molts
+
+dn: uid=11 Pou,ou=socis,dc=eric,dc=cat
+objectclass: llarenaAccount
+objectclass: indepeOrgPerson
+objectclass: inetOrgPerson
+cn: Pere Pou
+sn: Pou
+description: Watch out for this guy
+ou: socis
+idcat: 11
+twitter: abc
+delictes: molts
+
+
+
+
+
+
+
